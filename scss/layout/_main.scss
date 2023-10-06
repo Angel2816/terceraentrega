@@ -1,0 +1,37 @@
+
+/* Estilos imagenes*/
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0r 0.8fr 0.1fr;
+    grid-template-areas:
+        "uno uno uno uno"
+        "parrafo parrafo parrafo parrafo"
+        "dos dos tres tres"
+        "dos dos tres tres";
+    gap: 10px;
+}
+
+.tres {
+    grid-area: uno;
+
+}
+
+.uno {
+    grid-area: dos;
+    padding-left: 1vh;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.dos {
+    grid-area: tres;
+    padding-right: 1vh;
+    padding-top: 5vh;
+}
+
+.main img {
+    max-width: 100%;
+    max-height: 100%;
+}
+

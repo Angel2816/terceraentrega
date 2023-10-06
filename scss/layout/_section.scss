@@ -1,0 +1,24 @@
+/* estilos parte de en medio de la pagina principal*/
+.slogan {
+    grid-area: parrafo;
+    top: 0;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan h2 {
+
+    text-align: center;
+    font-size: 6rem;
+    color: #dfddd1;
+    padding-top: 5vw;
+}
+
+.slogan p {
+    padding-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #dfddd1;
+    padding-bottom: 2vh;
+}
