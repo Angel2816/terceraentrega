@@ -38,6 +38,15 @@
 /* Estilos para los campos a rellenar */
 .input-box {
     margin-bottom: 20px;
+    label {
+    
+        position: relative;
+        top: 80;
+        left: 30;
+        color: #191916;
+        font-size: 1em;
+    
+    }
 
 }
 
@@ -48,16 +57,6 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-}
-
-.input-box label {
-    
-    position: relative;
-    top: 80;
-    left: 30;
-    color: #191916;
-    font-size: 1em;
-
 }
 
 .input-box input:focus+label,

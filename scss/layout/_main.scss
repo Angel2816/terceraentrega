@@ -10,6 +10,10 @@
         "dos dos tres tres"
         "dos dos tres tres";
     gap: 10px;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 .tres {
@@ -28,10 +32,5 @@
     grid-area: tres;
     padding-right: 1vh;
     padding-top: 5vh;
-}
-
-.main img {
-    max-width: 100%;
-    max-height: 100%;
 }
 

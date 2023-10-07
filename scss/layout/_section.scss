@@ -5,20 +5,18 @@
     padding: 2vh;
     display: flex;
     flex-direction: column;
-}
+    h2 {
 
-.slogan h2 {
-
-    text-align: center;
-    font-size: 6rem;
-    color: #dfddd1;
-    padding-top: 5vw;
-}
-
-.slogan p {
-    padding-top: 2rem;
-    font-size: 3rem;
-    text-align: center;
-    color: #dfddd1;
-    padding-bottom: 2vh;
+        text-align: center;
+        font-size: 6rem;
+        color: #dfddd1;
+        padding-top: 5vw;
+    }
+    p {
+        padding-top: 2rem;
+        font-size: 3rem;
+        text-align: center;
+        color: #dfddd1;
+        padding-bottom: 2vh;
+    }
 }

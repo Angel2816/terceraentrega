@@ -23,6 +23,10 @@ body {
   grid-template-areas: "uno uno uno uno" "parrafo parrafo parrafo parrafo" "dos dos tres tres" "dos dos tres tres";
   gap: 10px;
 }
+.main img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .tres {
   grid-area: uno;
@@ -39,11 +43,6 @@ body {
   grid-area: tres;
   padding-right: 1vh;
   padding-top: 5vh;
-}
-
-.main img {
-  max-width: 100%;
-  max-height: 100%;
 }
 
 /*Estilos barra de navegacion*/
@@ -67,7 +66,6 @@ header {
   display: flex;
   gap: 1rem;
 }
-
 .nav-list li a {
   text-decoration: none;
   color: #1c1c1c;
@@ -80,13 +78,6 @@ header {
   font-size: 8vh;
   background-color: transparent;
   cursor: pointer;
-}
-
-.abrir-menu {
-  color: #dfddd1;
-}
-
-.cerrar-menu {
   color: #dfddd1;
 }
 
@@ -117,7 +108,6 @@ header {
   flex-direction: column;
   align-items: start;
 }
-
 .nav-list li a {
   color: #dfddd1;
   font-size: 10vw;
@@ -163,14 +153,12 @@ header {
   display: flex;
   flex-direction: column;
 }
-
 .slogan h2 {
   text-align: center;
   font-size: 6rem;
   color: #dfddd1;
   padding-top: 5vw;
 }
-
 .slogan p {
   padding-top: 2rem;
   font-size: 3rem;
@@ -215,6 +203,13 @@ header {
 .input-box {
   margin-bottom: 20px;
 }
+.input-box label {
+  position: relative;
+  top: 80;
+  left: 30;
+  color: #191916;
+  font-size: 1em;
+}
 
 .input-box input,
 .input-box textarea {
@@ -223,14 +218,6 @@ header {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
-}
-
-.input-box label {
-  position: relative;
-  top: 80;
-  left: 30;
-  color: #191916;
-  font-size: 1em;
 }
 
 .input-box input:focus + label,
