@@ -1,0 +1,41 @@
+.container {
+    height: 60rem;
+    background-image: url(https://th.bing.com/th/id/OIP.96NfThgUh8ZfaTiP2TUg6wHaEu?pid=ImgDet&rs=1);
+    background-size: cover;
+    margin-top: 10rem;   
+    margin-bottom: 10rem;    
+    border: solid;
+    border-radius: 15px;  
+    display: flex; /* Usar flexbox para alinear elementos en fila */
+    justify-content: center; /* Distribuir los elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+    padding: 20px;
+ 
+}
+
+.iniciodesesion{
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    width: 30rem;
+    height: 35rem;
+    border: solid;
+    border-radius: 15px;
+}
+
+.container h2 {
+    font-size: 30px;
+    color: antiquewhite;  
+    text-align: center;
+
+}
+
+.form-group {    
+    font-size: 15px;
+    width:25rem;
+    color: antiquewhite;
+    margin-left: 2rem;     
+}
+.btn{
+    margin-left: 2rem;
+}
+

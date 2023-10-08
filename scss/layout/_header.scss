@@ -87,7 +87,8 @@ header {
         top: 0;
         align-items: end;
         justify-content: space-between;
-    }
+        z-index: 98;
+           }
 
     .logo {
         z-index: 99;
@@ -99,8 +100,6 @@ header {
             color: #191916;
             font-size: 4vh;
             padding: 2vh;
-    
-    
         }
     }
 
