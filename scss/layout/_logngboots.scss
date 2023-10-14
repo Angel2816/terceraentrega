@@ -1,3 +1,4 @@
+/*estilos seccion loging*/
 .container {
     height: 60rem;
     background-image: url(https://th.bing.com/th/id/OIP.96NfThgUh8ZfaTiP2TUg6wHaEu?pid=ImgDet&rs=1);
@@ -6,9 +7,9 @@
     margin-bottom: 10rem;    
     border: solid;
     border-radius: 15px;  
-    display: flex; /* Usar flexbox para alinear elementos en fila */
-    justify-content: center; /* Distribuir los elementos horizontalmente */
-    align-items: center; /* Centrar verticalmente los elementos */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     padding: 20px;
  
 }

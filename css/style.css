@@ -169,7 +169,7 @@ header {
   padding-bottom: 2vh;
 }
 
-/*contenedor*/
+/*estilos formulario de contacto*/
 .caja {
   margin-top: 10rem;
   display: flex;
@@ -248,6 +248,7 @@ button[type=submit] {
   height: 30vh;
 }
 
+/*estilos seccion loging*/
 .container {
   height: 60rem;
   background-image: url(https://th.bing.com/th/id/OIP.96NfThgUh8ZfaTiP2TUg6wHaEu?pid=ImgDet&rs=1);
@@ -256,9 +257,9 @@ button[type=submit] {
   margin-bottom: 10rem;
   border: solid;
   border-radius: 15px;
-  display: flex; /* Usar flexbox para alinear elementos en fila */
-  justify-content: center; /* Distribuir los elementos horizontalmente */
-  align-items: center; /* Centrar verticalmente los elementos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 
@@ -288,7 +289,7 @@ button[type=submit] {
   margin-left: 2rem;
 }
 
-/*:::::Pie de Pagina*/
+/*Pie de Pagina*/
 .pie-pagina {
   width: 100%;
   background-color: #191916;
@@ -346,6 +347,7 @@ button[type=submit] {
     padding: 35px 0px;
   }
 }
+/* estilos seccion ubicacion*/
 .col {
   margin-top: 5rem;
 }
