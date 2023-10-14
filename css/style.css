@@ -55,6 +55,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2vw;
+  z-index: 1;
 }
 
 .logo {
@@ -344,6 +345,45 @@ button[type=submit] {
     grid-gap: 30px;
     padding: 35px 0px;
   }
+}
+.col {
+  margin-top: 5rem;
+}
+.col h1 {
+  font-size: 5rem;
+}
+.col p {
+  font-size: 2rem;
+}
+.col h2 {
+  font-size: 5rem;
+}
+.col h3 {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 774px) {
+  .col {
+    margin-top: 15rem;
+    margin-left: 8rem;
+  }
+}
+.accordion-button {
+  background-color: #b9a881;
+  width: 35em;
+}
+
+.accordion-item {
+  background-color: #b9a881;
+}
+
+.mapubi {
+  margin-bottom: 5rem;
+  margin-left: 3vw;
+}
+
+.colinfo {
+  margin-left: 3vw;
 }
 
 /*# sourceMappingURL=style.css.map */
